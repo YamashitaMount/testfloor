@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        yz-web
+        てすと
       </h1>
       <div class="links">
         <a
@@ -22,13 +22,15 @@
         >
           GitHub
         </a>
+         <p><router-link to="/day1">day1</router-link></p>
+         <p><router-link to="/day2">day2</router-link></p>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {layout: 'sample'}
 </script>
 
 <style>
