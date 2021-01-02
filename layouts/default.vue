@@ -1,10 +1,29 @@
 <template>
   <div>
+    <nav>
+      <ul>
+        <li>
+          <NuxtLink to="/">Home</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/blog">blog</NuxtLink>
+        </li>
+      </ul>
+    </nav>
     <Nuxt />
   </div>
 </template>
 
 <style>
+
+a.nuxt-link-active{
+  font-weight: bold;
+}
+
+a.nuxt-link-exact-active{
+  color:#00c58e;
+}
+
 html {
   font-family:
     'Source Sans Pro',
@@ -29,6 +48,12 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
 }
 
 .button--green {
@@ -60,5 +85,3 @@ html {
   background-color: #35495e;
 }
 </style>
-
-<

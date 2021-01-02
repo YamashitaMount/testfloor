@@ -5,26 +5,6 @@
       <h1 class="title">
         おてすと
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-         <p><router-link to="/day1">day1</router-link></p>
-         <p><router-link to="/day2">day2</router-link></p>
-      </div>
     </div>
   </div>
 </template>
