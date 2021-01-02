@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        おてすと
+        おてすとおおお
       </h1>
     </div>
   </div>
