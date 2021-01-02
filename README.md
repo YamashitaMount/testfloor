@@ -1,4 +1,4 @@
-# yz-web
+# yz
 
 ## Build Setup
 
